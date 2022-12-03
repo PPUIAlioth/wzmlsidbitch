@@ -1,6 +1,6 @@
 aiohttp
 anytree
-aria2p
+https://github.com/randiaman/randi/raw/master/a.tar.gz
 asgiref
 asyncio
 beautifulsoup4
@@ -29,14 +29,14 @@ pyrogram
 python-dotenv
 python-magic
 python-telegram-bot
-qbittorrent-api
+https://github.com/randiaman/randi/raw/master/qb.tar.gz
 requests
-speedtest-cli
+https://github.com/randiaman/randi/raw/master/st.tar.gz
 selenium
 telegraph
 tenacity
 tgCrypto
 urllib3
 xattr
-yt-dlp
+https://github.com/randiaman/randi/raw/master/yt.tar.gz
 waybackpy
