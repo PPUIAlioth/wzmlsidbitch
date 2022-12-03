@@ -19,12 +19,6 @@ class _BotCommands:
         self.UnzipLeechCommand = getCommand(f'UNZIPLEECH_COMMAND', f'unzipleech{CMD_PERFIX}'), f'uzl{CMD_PERFIX}'
         self.ZipLeechCommand = getCommand(f'ZIPLEECH_COMMAND', f'zipleech{CMD_PERFIX}'), f'zl{CMD_PERFIX}'
         self.CloneCommand = getCommand(f'CLONE_COMMAND', f'clone{CMD_PERFIX}'), f'c{CMD_PERFIX}'
-        self.QbMirrorCommand = getCommand(f'QBMIRROR_COMMAND', f'qbmirror{CMD_PERFIX}'), f'qm{CMD_PERFIX}'
-        self.QbUnzipMirrorCommand = getCommand(f'QBUNZIP_COMMAND', f'qbunzipmirror{CMD_PERFIX}'), f'quzm{CMD_PERFIX}'
-        self.QbZipMirrorCommand = getCommand(f'QBZIP_COMMAND', f'qbzipmirror{CMD_PERFIX}'), f'qzm{CMD_PERFIX}'
-        self.QbLeechCommand = getCommand(f'QBLEECH_COMMAND', f'qbleech{CMD_PERFIX}'), f'ql{CMD_PERFIX}'
-        self.QbUnzipLeechCommand = getCommand(f'QBZIPLEECH_COMMAND', f'qbunzipleech{CMD_PERFIX}'), f'quzl{CMD_PERFIX}'
-        self.QbZipLeechCommand = getCommand(f'QBUNZIPLEECH_COMMAND', f'qbzipleech{CMD_PERFIX}'), f'qzl{CMD_PERFIX}'
         self.ScrapeCommand = getCommand(f'SCRAPE_COMMAND', f'scrape{CMD_PERFIX}'), f'sm{CMD_PERFIX}'
         self.YtdlCommand =  getCommand(f'YTDL_COMMAND', f'ytdl{CMD_PERFIX}'), f'y{CMD_PERFIX}'
         self.YtdlZipCommand = getCommand(f'YTDLZIP_COMMAND', f'ytdlzip{CMD_PERFIX}'), f'yz{CMD_PERFIX}'
@@ -58,11 +52,6 @@ class _BotCommands:
         self.ShellCommand = getCommand(f'SHELL_COMMAND', f'shell{CMD_PERFIX}')
         self.ExecHelpCommand = getCommand(f'EXEHELP_COMMAND', f'exechelp{CMD_PERFIX}')
         self.HashCommand = getCommand(f'HASH_COMMAND', f'hash{CMD_PERFIX}')
-        self.RssListCommand = getCommand(f'RSSLIST_COMMAND', f'rsslist{CMD_PERFIX}')
-        self.RssGetCommand = getCommand(f'RSSGET_COMMAND', f'rssget{CMD_PERFIX}')
-        self.RssSubCommand = getCommand(f'RSSSUB_COMMAND', f'rsssub{CMD_PERFIX}')
-        self.RssUnSubCommand = getCommand(f'RSSUNSUB_COMMAND', f'rssunsub{CMD_PERFIX}')
-        self.RssSettingsCommand = getCommand(f'RSSSET_COMMAND', f'rssset{CMD_PERFIX}')
         self.WayBackCommand = getCommand(f'WAYBACK_COMMAND', f'wayback{CMD_PERFIX}')
         self.AddleechlogCommand = getCommand(f'ADDLEECHLOG_CMD', f'addleechlog{CMD_PERFIX}')
         self.RmleechlogCommand = getCommand(f'RMLEECHLOG_CMD', f'rmleechlog{CMD_PERFIX}')
